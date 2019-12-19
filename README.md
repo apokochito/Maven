@@ -7,6 +7,7 @@
     - Test JUnit4 (Don't forget add JUnit4 to your classpath)
     - Jacoco Report (test goal to generate it)
 - Java Servlets (servlet branch)
+    - Tomcat Maven Plugin (Servlet using IntelliJ IDEA Community)(To create project struncture run this maven command - $mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.4)
     - Servlet POST
     - JSP
 - Maven Basics (maven branch)
