@@ -73,7 +73,7 @@ public class Main {
             e.printStackTrace();
         }
 
-        // Orika Library
+        // Orika library
         // Factory Object
         MapperFactory mapperFactory = new DefaultMapperFactory.Builder().build();
         mapperFactory.classMap(Backend.class, Frontend.class);
@@ -82,6 +82,21 @@ public class Main {
         Frontend toClient = mapper.map(toService, Frontend.class);
         System.out.println("Object mapped: "+toClient);
 
-        //
+        // LOG4J AND SLF4J libraries
+        LoggersClass logger = new LoggersClass();
+        logger.getInfoLoggers();
+
+        /* Jacoco library
+        if you have the Jacoco tasks or Jacoco maven plugin you don't have to care about the agent and its options directly.
+        Add dependency
+        Add plugin
+        Add configuration to plugin
+        Create JUnit
+        The plugin must NOT be inside pluginManagement tag
+         */
+        ClassToTest operation = new ClassToTest();
+        int result = operation.sum(3,6);
+        System.out.println(result);
+
     }
 }
