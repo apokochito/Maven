@@ -3,7 +3,8 @@
     - Lombok
     - Jackson
     - Orika
-    - Log4J & Slf4J
+    - Log4J & Slf4J (Don't forget add slf4j dependency (compile Scope) to your classpath)
+    - Test JUnit4 (Don't forget add JUnit4 to your classpath)
     - Jacoco Reports
 - Java Servlets (servlet branch)
     - Servlet POST
