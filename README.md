@@ -1,6 +1,17 @@
 # Maven Basics
-- Dependencies
-- Profiles
-- Versions
-- Plugins
-- And more...
+- Libraries (master branch)
+    - Lombok
+    - Jackson
+    - Orika
+    - Log4J & Slf4J
+    - Jacoco Reports
+- Java Servlets (servlet branch)
+    - Servlet POST
+    - JSP
+- Maven Basics (maven branch)
+    - Lifecycles
+    - Plugins
+    - Dependencies
+    - Artifactory
+    - Version
+    - Profiles
