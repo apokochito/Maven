@@ -16,4 +16,4 @@
     - Dependencies
     - Artifactory
     - Version
-    - Profiles
+    - Profiles (To activate a profile, add -P option, mvn package -Pxtest)
