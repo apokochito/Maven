@@ -16,4 +16,4 @@
     - Dependencies
     - Artifactory
     - Version
-    - Profiles (To activate a profile, add -P option, mvn package -Pxtest)
+    - Profiles (Run perfiles with mvn package command, it is to activate a profile, add -P option, mvn package -Pxtest)
