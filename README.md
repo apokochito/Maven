@@ -8,7 +8,7 @@
     - Jacoco Report (test goal to generate it)
 - Java Servlets (servlet branch)
     - Tomcat Maven Plugin (Servlet using IntelliJ IDEA Community)(To create project struncture, run this maven command - mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.4)
-    - Servlet GET "Hello from a servlet"
+    - Servlet GET "Hello from a servlet" (You must have war packaging on your POM to run tomcat)
     - JSP
 - Maven Basics (maven branch)
     - Lifecycles
