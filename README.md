@@ -12,6 +12,7 @@
     - JSP (See this app - http://localhost:9090/servlet)
 - Maven Basics (**maven branch**)
     - Lifecycles
+    - Phases (validate >> compile >> test (optional) >> package >> verify >> install >> deploy)
     - Plugins
     - Dependencies
     - Artifactory
