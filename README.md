@@ -20,5 +20,5 @@
     - Profiles (Run perfiles with mvn package command, it is to activate a profile, add -P option, mvn package -Pxtest)
 - Hibernate Basics (**hibernate branch**)
     - Steps
-- MongoDB DB (**mongo branch**)
+- MongoDB (**mongo branch**)
     - Steps
