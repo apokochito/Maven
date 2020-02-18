@@ -18,7 +18,3 @@
     - Artifactory
     - Version
     - Profiles (Run perfiles with mvn package command, it is to activate a profile, add -P option, mvn package -Pxtest)
-- Hibernate Basics (**hibernate branch**)
-    - Steps
-- MongoDB (**mongo branch**)
-    - Steps
